@@ -11,6 +11,23 @@ licence before contributing to the project.
 git clone https://github.com/your-github-username/RecycleIT-A
 ```
 
+## Sync your fork
+Always sync your fork with the origin repository. You can do it on GitHub or
+in the command line:
+
+```
+# Add a new remote upstream repository
+git remote add upstream https://github.com/RecycleAI/RecycleIT-A.git
+
+# Sync your fork on your device
+git fetch upstream
+git checkout main
+git merge upstream/main
+
+# Sync your fork on your GitHub repo
+git push
+```
+
 ## Create a new branch
 - The recommended name of the branch contains the name of the feature you are
 working on. For example I am writhn a "How to contribute" document and I will
@@ -26,28 +43,7 @@ Then switch to your branch:
 git checkout howto-contribute
 ```
 
-## Sync your fork
-Always sync your fork with the origin repository. You can do it on GitHub or
-in the command line:
-
-```
-# Add a new remote upstream repository
-git remote add upstream https://github.com/RecycleAI/RecycleIT-A.git
-
-# Sync your fork
-git fetch upstream
-git checkout main
-git merge upstream/main
-```
-
 ## Do your changes
-If you are still on the main branch, checkout to your feature branch again
-after the previous step. In our example do:
-
-```
-git checkout howto-contribute
-```
-
 Do your changes in the repository. For instance add a new code, fix a bug or
 modify the README. Then do:
 
