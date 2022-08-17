@@ -1,5 +1,5 @@
 # RecycleIT-A
-About project ...
+About project ..
 
 ## How to contribute to RecycleIT
 ### Read and agree to the License
@@ -17,22 +17,65 @@ git clone https://github.com/your-github-username/RecycleIT-A
 - The recommended name of the branch contains the name of the feature you are
 working on. For example I am writhn a "How to contribute" document and I will use
 "howto-contribute" for the name of my branch:
-``git branch howto-contribute``
+
+```
+git branch howto-contribute
+```
+
 Then switch to your branch:
-``git checkout howto-contribute``
+
+```
+git checkout howto-contribute
+```
+
+### Sync your fork
+Always sync your fork with the origin repository. You can do it on GitHub or
+in the command line:
+
+```
+# Add a new remote upstream repository
+git remote add upstream https://github.com/RecycleAI/RecycleIT-A.git
+
+# Sync your fork
+git fetch upstream
+git checkout main
+git merge upstream/main
+```
 
 ### Do your changes
-For instance add a new code, fix a bug or modify the README. Then do:
-``git branch --set-upstream-to=origin/main howto-contribute``
+If you are still on the main branch, checkout to your feature branch again after the previous step.
+In our example do:
+
+```
+git checkout howto-contribute
+```
+
+Do your changes in the repository. For instance add a new code, fix a bug or modify the README.
+Then do:
+
+```
+git branch --set-upstream-to=origin/main howto-contribute
+```
+
 Add the file/code that you created/modified:
-``git add name-of-the-file``
+
+```
+git add name-of-the-file
+```
+
 Then commit the changes with a meaningful comment:
-``git commit -m "A meaningful comment here please"``
+
+```
+git commit -m "A meaningful comment here please"
+```
 
 
 ### push your branch
 Push your branch to your GitHub fork:
-``git push origin howto-contribute``
+
+```
+git push origin howto-contribute
+```
 
 ### Create a pull request
 After all this you will see a "Compare and pull request" green button in your GitHub.
