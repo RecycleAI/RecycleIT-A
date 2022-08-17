@@ -43,7 +43,15 @@ git merge upstream/main
 ```
 
 ### Do your changes
-For instance add a new code, fix a bug or modify the README. Then do:
+If you are still on the main branch, checkout to your feature branch again after the previous step.
+In our example do:
+
+```
+git checkout howto-contribute
+```
+
+Do your changes in the repository. For instance add a new code, fix a bug or modify the README.
+Then do:
 
 ```
 git branch --set-upstream-to=origin/main howto-contribute
