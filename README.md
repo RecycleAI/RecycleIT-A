@@ -1,5 +1,5 @@
 # RecycleIT-A
-About project ...
+About project ..
 
 ## How to contribute to RecycleIT
 ### Read and agree to the License
