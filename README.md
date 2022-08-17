@@ -8,7 +8,10 @@ RecycleIT is licencend under GPL-3.0. Make sure that you agree with this licence
 ### Fork the project
 - Fork the project to your GitHub.
 - Then clone the forked project to your computer:
-``git clone https://github.com/your-github-username/RecycleIT-A``
+
+```
+git clone https://github.com/your-github-username/RecycleIT-A
+```
 
 ### Create a new branch
 - The recommended name of the branch contains the name of the feature you are
