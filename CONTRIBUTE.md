@@ -45,7 +45,7 @@ git checkout howto-contribute
 
 ## Do your changes
 Do your changes in the repository. For instance add a new code, fix a bug or
-modify the README. Then do:
+modify the README. Then set the upstream to:
 
 ```
 git branch --set-upstream-to=origin/main howto-contribute
