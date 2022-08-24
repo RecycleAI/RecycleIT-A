@@ -11,3 +11,4 @@ read the CONTRIBUTE.md.
 - Masoume Panahi
 - Fatemeh Pourhashem
 - Fatemeh Honarvar
+- Amirhossein Naghipour
