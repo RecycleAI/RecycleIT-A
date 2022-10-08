@@ -1,4 +1,5 @@
-# Basic Calculator(calculatorfirstversion)
+# Basic Calculator(calculatorfirstversion) 
+> **pip install calculatorfirstversion**
 ***
 This calculator is a basic version of a calculation that can perform simple arithmetic operations including Addition, Subtraction, Multiplication, Division, Modulus, Exponentiation, and Floor division. The name of functions are as below
 
