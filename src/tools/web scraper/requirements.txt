@@ -1,0 +1,4 @@
+# Requirements
+git+https://github.com/Joeclinton1/google-images-download.git
+numpy>=1.18.5
+selenium==4.5.0
