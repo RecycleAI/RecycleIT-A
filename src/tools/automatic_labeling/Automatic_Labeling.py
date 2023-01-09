@@ -139,7 +139,7 @@ def bounding_box_finder(img):
     else:
       if results.pandas().xyxy[i].confidence.max()*100 >= img.confidence:
         count+=1  
-        print(f"{results.pandas().xyxy[0].loc[results.pandas().xyxy[0].confidence.idxmax()]}")
+        print(f"{results.pandas().xyxy[i].loc[results.pandas().xyxy[i].confidence.idxmax()]}")
         print(f"is result for {img.path[i]}")
         print(f"Model predict {count}  images from {len(img.path)}") 
         print("----------------------") 
